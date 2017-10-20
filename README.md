@@ -7,11 +7,11 @@ FOR UBUNTU 16.04 :
 
       g++ -std=c++11 server.cpp -o server
 
-      ./server <port_number>
+      ./server <server_port>
 
 
 2. Compile and Execute Client
 
       g++ -std=c++11 client.cpp -o client
   
-      ./client <ip_address of server> <port of server>
+      ./client <server_ip_address> <server_port>
